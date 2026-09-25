@@ -201,7 +201,7 @@ footer{margin-top:120px; padding:30px 0; border-top:1px solid var(--line); displ
 </nav>
 
 <header class="hero">
-  <div class="hero-bg" style="background-image:url(assets/img/img01.jpg)" role="img" aria-label="Close-up of studio compressor gain reduction knobs"></div>
+  <div class="hero-bg" style="background-image:url(img01.jpg)" role="img" aria-label="Close-up of studio compressor gain reduction knobs"></div>
   <h1>
     <span><em>LOTUS</em></span>
     <span><em>SOUND LAB</em></span>
@@ -238,7 +238,7 @@ footer{margin-top:120px; padding:30px 0; border-top:1px solid var(--line); displ
         <div class="prog-track"><div class="prog-fill"></div></div>
         <div class="time">0:00 / 0:00</div>
       </div>
-      <audio id="baAudio" preload="metadata" src="assets/audio/track01.mp3"></audio>
+      <audio id="baAudio" preload="metadata" src="track01.mp3"></audio>
     </div>
   </section>
 
@@ -265,7 +265,7 @@ footer{margin-top:120px; padding:30px 0; border-top:1px solid var(--line); displ
 
   <section id="about">
     <div class="about-grid reveal">
-      <div class="photo-ph"><img src="assets/img/img02.jpg" alt="Peter Kolesnikov working at his studio desk, seen from behind, surrounded by acoustic treatment, monitors and a MIDI keyboard"></div>
+      <div class="photo-ph"><img src="img02.jpg" alt="Peter Kolesnikov working at his studio desk, seen from behind, surrounded by acoustic treatment, monitors and a MIDI keyboard"></div>
       <div>
         <div class="about-name">PETER KOLESNIKOV</div>
         <div class="about-role">Sound Engineer · Founder of Lotus Sound Lab</div>
@@ -343,11 +343,11 @@ document.querySelectorAll('.reveal').forEach(el=>io.observe(el));
 
 // Build work grid (6 placeholder projects)
 const projects=[
-  {n:'01',artist:'Lotus Blako — Memory Echo',role:'Production · Mixing · Mastering',year:'2026',audio:'assets/audio/track02.mp3',art:'assets/img/img03.jpg'},
-  {n:'02',artist:'Lotus Blako — Go Go (feat. Dorrie)',role:'Recording · Mixing · Mastering',year:'2026',audio:'assets/audio/track03.mp3',art:'assets/img/img04.jpg'},
-  {n:'03',artist:'Abysseia — Five Years in Magenta',role:'Mixing · Mastering',year:'2025',audio:'assets/audio/track04.mp3',art:'assets/img/img05.jpg'},
-  {n:'04',artist:'Zakhary — Podlokotnic',role:'Mixing · Mastering',year:'2025',audio:'assets/audio/track05.mp3',art:'assets/img/img06.jpg'},
-  {n:'05',artist:'Dorrie — VR',role:'Production · Mixing · Mastering',year:'2025',audio:'assets/audio/track06.mp3',art:'assets/img/img07.jpg'},
+  {n:'01',artist:'Lotus Blako — Memory Echo',role:'Production · Mixing · Mastering',year:'2026',audio:'track02.mp3',art:'img03.jpg'},
+  {n:'02',artist:'Lotus Blako — Go Go (feat. Dorrie)',role:'Recording · Mixing · Mastering',year:'2026',audio:'track03.mp3',art:'img04.jpg'},
+  {n:'03',artist:'Abysseia — Five Years in Magenta',role:'Mixing · Mastering',year:'2025',audio:'track04.mp3',art:'img05.jpg'},
+  {n:'04',artist:'Zakhary — Podlokotnic',role:'Mixing · Mastering',year:'2025',audio:'track05.mp3',art:'img06.jpg'},
+  {n:'05',artist:'Dorrie — VR',role:'Production · Mixing · Mastering',year:'2025',audio:'track06.mp3',art:'img07.jpg'},
 ];
 const grid=document.getElementById('workGrid');
 projects.forEach(p=>{
