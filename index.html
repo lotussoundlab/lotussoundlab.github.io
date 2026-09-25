@@ -164,8 +164,7 @@ h2.big{font-size:clamp(38px,6vw,72px); font-weight:500; letter-spacing:-0.01em; 
 .links-row{margin-top:56px; display:flex; gap:34px; flex-wrap:wrap;}
 .links-row a{font-size:13px; letter-spacing:0.08em; color:var(--fg-dim); border-bottom:1px solid var(--line); padding-bottom:4px; transition:color .3s, border-color .3s;}
 .links-row a:hover{color:var(--fg); border-color:var(--fg);}
-.cta-final{margin-top:60px; display:inline-block; font-size:14px; letter-spacing:0.1em; border:1px solid var(--fg); padding:16px 32px; transition:background .3s, color .3s;}
-.cta-final:hover{background:var(--fg); color:var(--bg);}
+.cta-final{margin-top:60px; display:inline-block; font-size:14px; letter-spacing:0.1em; color:var(--fg); user-select:all;}
 footer{margin-top:120px; padding:30px 0; border-top:1px solid var(--line); display:flex; justify-content:space-between; font-size:11px; color:var(--fg-dim); letter-spacing:0.06em;}
 
 /* RESPONSIVE */
@@ -320,7 +319,7 @@ footer{margin-top:120px; padding:30px 0; border-top:1px solid var(--line); displ
       <a href="https://www.linkedin.com/in/petr-kolesnikov-1194a5297/" target="_blank" rel="noopener">LINKEDIN</a>
       <a href="https://www.instagram.com/lotussoundlab" target="_blank" rel="noopener">INSTAGRAM</a>
     </div>
-    <a href="mailto:petroffen1@gmail.com" class="cta-final reveal">GET IN TOUCH →</a>
+    <div class="cta-final reveal">petroffen1@gmail.com</div>
     <footer>
       <div>LOTUS SOUND LAB © 2026</div>
       <div>Tel Aviv, Israel</div>
